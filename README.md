@@ -1,34 +1,103 @@
-# ML Journey
+# 🚀 ML Journey
 
-A hands-on record of my journey into **Machine Learning and Data Science**.
+A journey to learn **Data Science and Machine Learning** through concepts, practice, experiments, and projects.
 
-This repository contains the concepts I learn, code I write, algorithms I implement, experiments I run, and projects I build along the way.
-
-I’m starting from the fundamentals and progressively moving toward **Machine Learning, Deep Learning, and AI/ML Engineering**.
-
-The focus is on **understanding concepts through implementation rather than just completing tutorials**.
+This repository contains my **notes, Jupyter notebooks, implementations, experiments, and projects** as I progress toward becoming an ML Engineer.
 
 ---
 
-### What I’m Working On
+## 🎯 Goals
 
-- Learning and implementing core ML & Data Science concepts
-- Building strong foundations in Python, NumPy, Pandas, SQL and statistics
-- Implementing algorithms and solving problems from scratch
-- Experimenting with datasets and ML models
-- Documenting useful notes and learnings for future reference
-- Gradually turning concepts into practical projects
-
----
-
-### Philosophy
-
-> **Learn → Implement → Experiment → Build → Document**
-
-This repository will evolve alongside my skills — from my first implementations to production-oriented ML projects.
+* Learn NumPy and Pandas
+* Learn data collection and processing
+* Learn Exploratory Data Analysis
+* Understand Machine Learning algorithms
+* Learn statistics and mathematics required for ML
+* Build ML projects
+* Develop strong problem-solving skills
+* Build real-world ML systems
 
 ---
 
-**Current focus:** Python • NumPy • Pandas • SQL • Data Science
+## 📅 Progress
 
-**Long-term direction:** Data Science → Machine Learning → Deep Learning → AI/ML Engineering
+| Topic                     | Status |
+| ------------------------- | ------ |
+| NumPy Basics              | ✅      |
+| Pandas Basics             | ✅      |
+| Data Collection           | 🔄     |
+| Data Processing           | ⏳      |
+| Exploratory Data Analysis | ⏳      |
+| Machine Learning          | ⏳      |
+| ML Projects               | ⏳      |
+
+---
+
+## 📂 Repository Structure
+
+```text
+ML-Journey/
+│
+├── 01_numpy_basics/
+│   ├── numpy_basics.ipynb
+│   └── README.md
+│
+├── 02_pandas_basics/
+│   ├── pandas_basics.ipynb
+│   └── README.md
+│
+├── 03_data_collection/
+│
+├── 04_data_processing/
+│
+├── 05_machine_learning/
+│
+├── 06_projects/
+│
+├── datasets/
+│
+├── resources/
+│
+└── README.md
+```
+
+---
+
+## 🛠️ Tools & Technologies
+
+* Python
+* NumPy
+* Pandas
+* Jupyter Notebook
+* Matplotlib
+* Scikit-learn
+* Git & GitHub
+* Linux
+
+---
+
+## 📌 Learning Approach
+
+**Learn → Implement → Experiment → Build → Document**
+
+I follow an **80/20 approach**, focusing on the concepts that provide the most practical value and strengthening them through hands-on implementation.
+
+---
+
+## 🚧 Current Focus
+
+> **Data Collection → Data Processing → Exploratory Data Analysis**
+
+This repository will evolve as I progress through my ML journey.
+
+---
+
+## 👨‍💻 Author
+
+**Rakshith N R**
+
+Computer Science student learning **Machine Learning, Data Science, and Software Development**.
+
+GitHub: [@rakshithnr2007](https://github.com/rakshithnr2007)
+
+
