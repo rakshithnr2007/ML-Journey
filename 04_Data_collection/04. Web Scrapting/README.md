@@ -42,7 +42,10 @@ Find required HTML tags/classes
 Extract required data
      ↓
 Store data in Python lists
-     ↓
+    * - Used as the HTML parser with BeautifulSoup.
+- **Pandas** - Stores and combines the scraped data in DataFrame format.
+- **re** - extracts the number and its k/L suffix in one pattern match, avoiding manual string slicing.
+## What I Learned ↓
 Create dictionary
      ↓
 Convert into Pandas DataFrame
@@ -60,8 +63,7 @@ Final Dataset
 - **BeautifulSoup** - Parses HTML and helps extract required elements.
 - **lxml** - Used as the HTML parser with BeautifulSoup.
 - **Pandas** - Stores and combines the scraped data in DataFrame format.
-
-
+- **re** - Extracts the numeric part and its k/L suffix so the value can be converted correctly.
 ## What I Learned
 
 This project helped me understand the basic web scraping and data collection workflow:
