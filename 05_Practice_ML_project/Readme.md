@@ -49,20 +49,34 @@ y = df['price_direction']
 
 ---
 
-## 🔄 Workflow
+## 🔄 ML Workflow
 
-The notebook (Price_direction_classifier.ipynb) follows the standard ML pipeline:
+The project follows a basic end-to-end Machine Learning workflow:
 
-Data Preprocessing – load trading_classification.csv, drop the unnecessary unnamed column, check for missing values
-EDA (Exploratory Data Analysis) – scatter plot of market_sentiment vs price_change_pct, colored by class, to visually confirm the classes are separable
-Feature Selection – not required here since only two independent variables are used
-Extracting Inputs & Outputs – x = market_sentiment, price_change_pct; y = price_direction
-Train-Test Split – 90% train / 10% test using train_test_split()
-Feature Scaling – standardizing x_train and x_test using StandardScaler
-Model Training – fitting a LogisticRegression model on the training data
-Model Evaluation – predicting on the test set and measuring performance with accuracy_score
-Decision Boundary Visualization – using mlxtend.plotting.plot_decision_regions to visualize how the model separates the two classes
-Deployment – exporting the trained model as model.pkl using pickle, ready to be integrated into a front end / API
+```text
+Dataset
+   ↓
+Preprocessing
+   ↓
+EDA
+   ↓
+Feature Selection
+   ↓
+Extract Input & Output
+   ↓
+Train-Test Split
+   ↓
+Feature Scaling
+   ↓
+Model Training
+   ↓
+Prediction
+   ↓
+Model Evaluation
+   ↓
+Decision Boundary Visualization
+```
+
 ---
 
 ## 🤖 Machine Learning Model
@@ -159,4 +173,3 @@ This project provides the foundation for moving into:
 * More advanced Machine Learning projects
 
 > **Build simple → understand the workflow → go deeper.**
-
