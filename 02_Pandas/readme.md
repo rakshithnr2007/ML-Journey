@@ -1,26 +1,22 @@
-# 02. Pandas Basics 🐼
+# Pandas Basics 🐼
 
-This section covers my practice and notes on **Pandas**, the go-to library 
-for data manipulation and analysis in Python — built on top of NumPy and 
-essential for handling real-world, tabular datasets.
+Documentation of core **Pandas** concepts in Python, covering how to create, read, modify, and analyze tabular data using DataFrames and Series.
 
-## ✅ Concepts Learnt
-- Importing NumPy and Pandas together
-- Creating a DataFrame from a dictionary
-- Reading & saving data: `pd.read_csv()`, `df.to_csv()`
-- Quick data inspection: `df.head()`, `df.tail()`, `df["col"].describe()`
-- Setting a custom index (`df.index = [...]`)
-- Creating a `pd.Series()` from a random NumPy array
-- Creating a DataFrame directly from a NumPy array
-- Core DataFrame attributes/methods: `.head()`, `.describe()`, `.index`, `.columns`
-- Converting a DataFrame back to a NumPy array with `.to_numpy()`
-- Transposing a DataFrame with `.T`
-- Sorting by index using `.sort_index()`
-- **View vs Copy** — understanding that plain assignment (`newdf2 = newdf`) creates a view sharing memory (editing one affects the other), while `df.copy()` creates a fully independent object
-- Dropping rows and columns using `drop()`, and the difference between `axis=0` (rows) and `axis=1` (columns)
-- **Accessing data with `loc` vs `iloc`** — `loc` is label/condition-based indexing (`loc[[rows],[cols]]`, conditional filtering), while `iloc` is purely position-based indexing
-- **Saving modifications safely** — understanding that `drop()` alone doesn't change the original DataFrame unless you reassign it (`newdf = newdf.drop(...)`) or use `inplace=True`
-- Resetting index using `reset_index(drop=True, inplace=True)`
-- Modifying a specific column safely using `.loc`
-- Counting unique values with `df["col"].value_counts()`
+## What's inside
 
+The notebook (`pandas_basics.ipynb`) covers:
+
+- **Creating a DataFrame** – from a dictionary, and from a NumPy array
+- **Reading & Saving Data** – `to_csv()`, `read_csv()`, `head()`, `tail()`, `describe()`
+- **Series** – creating a Pandas Series from random NumPy values
+- **DataFrame Basics** – `.index`, `.columns`, `.to_numpy()`, `.T` (transpose), `.sort_index()`
+- **View vs Copy** – understanding shared memory between DataFrames, and using `.copy()` to avoid unwanted side effects
+- **Dropping Rows & Columns** – using `.drop()` with `axis=0` / `axis=1`
+- **Accessing Data** – difference between `.loc[]` (label-based) and `.iloc[]` (position-based), including conditional filtering
+- **Saving Modifications Safely** – difference between a preview operation and reassigning/`inplace=True`, plus a common beginner bug around `inplace=True` returning `None`
+- **Resetting the Index** – `.reset_index()`
+- **Counting Values** – `.value_counts()`
+- **Pivot Table** – reshaping data with `index`, `columns`, `values`, and `aggfunc`
+
+---
+⭐ If this helped you, consider starring the repo!
